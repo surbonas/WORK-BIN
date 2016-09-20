@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SandboxShared
 {
-    public class SharedClass
+    public class SharedClassExtended
     {
     }
 }
