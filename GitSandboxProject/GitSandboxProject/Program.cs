@@ -14,6 +14,8 @@ namespace GitSandboxProject
         {
             sandbox = new SandboxClass();
             sandbox.DoSomething("param");
+
+            BugFixClass.BugFixMethod();
         }
 
     }
