@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GitSandboxUI", "GitSandboxU
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SandboxShared", "SandboxShared\SandboxShared.csproj", "{63A3A9BB-4D04-471D-9A32-49ABEB1F7180}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "SandboxDatabase", "SandboxDatabase\SandboxDatabase.sqlproj", "{339058BB-9674-4118-9032-992BF5E4DE47}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,12 @@ Global
 		{63A3A9BB-4D04-471D-9A32-49ABEB1F7180}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63A3A9BB-4D04-471D-9A32-49ABEB1F7180}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63A3A9BB-4D04-471D-9A32-49ABEB1F7180}.Release|Any CPU.Build.0 = Release|Any CPU
+		{339058BB-9674-4118-9032-992BF5E4DE47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{339058BB-9674-4118-9032-992BF5E4DE47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{339058BB-9674-4118-9032-992BF5E4DE47}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{339058BB-9674-4118-9032-992BF5E4DE47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{339058BB-9674-4118-9032-992BF5E4DE47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{339058BB-9674-4118-9032-992BF5E4DE47}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

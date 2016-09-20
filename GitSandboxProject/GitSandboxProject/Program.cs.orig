@@ -15,10 +15,16 @@ namespace GitSandboxProject
         static void Main(string[] args)
         {
             sandbox = new SandboxClass();
+<<<<<<< HEAD
+            sandbox.DoSomething("param");
+
+            BugFixClass.BugFixMethod();
+=======
             sandbox.DoSomething("another param");
 
             extendedSharedClass = new SharedClassExtended();
             sandbox.DoSomething(string.Empty);
+>>>>>>> AnotherNewBranch
         }
 
     }
