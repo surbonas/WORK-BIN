@@ -8,14 +8,13 @@ namespace GitSandboxProject
 {
     class Program
     {
+        private static SandboxClass sandbox;
+
         static void Main(string[] args)
         {
-
+            sandbox = new SandboxClass();
+            sandbox.DoSomething("param");
         }
 
-        public static void DoSomething(string someParam)
-        {
-            Console.WriteLine(someParam);
-        }
     }
 }
