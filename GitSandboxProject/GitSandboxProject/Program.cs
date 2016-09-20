@@ -19,6 +19,10 @@ namespace GitSandboxProject
 
             extendedSharedClass = new SharedClassExtended();
             sandbox.DoSomething(string.Empty);
+
+            var someVariable = 1;
+
+            Console.WriteLine(someVariable + 1);
         }
 
     }
