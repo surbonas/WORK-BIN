@@ -10,6 +10,12 @@ namespace GitSandboxProject
     {
         static void Main(string[] args)
         {
+
+        }
+
+        public static void DoSomething(string someParam)
+        {
+            Console.WriteLine(someParam);
         }
     }
 }
